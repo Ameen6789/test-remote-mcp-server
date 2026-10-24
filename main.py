@@ -24,4 +24,4 @@ def calculator(num1: float, num2: float, operator: str) -> float:
         raise ValueError("Invalid operator. Use +, -, *, or /.")
 
 if __name__=="__main__":
-    mcp.run(transport='http',host='0.0.0.0',port='8000')
+    mcp.run(transport='http',host='0.0.0.0',port=8000)
