@@ -7,7 +7,9 @@ authors = [
     { name = "ameen6789", email = "azrucha@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastmcp",
+]
 
 [project.scripts]
 demo-remote-mcp-server = "demo_remote_mcp_server:main"
